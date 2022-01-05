@@ -558,10 +558,12 @@ footer .input-group button{
  VALET PARKING 
 ================================ */
 .banner-two{
-    background-image: url(../img/photos/valet_parking/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.banner-two h3{
+    color: var(--wc);
 }
 .banner-two .overlay {
     background: #717fffa6;
@@ -578,13 +580,88 @@ footer .input-group button{
     min-height: 129px;
 }
 
+.booking-request{
+    background: var(--lnc);
+}
+.contact-form .custom-control{
+    width: 100%;
+    height: 65px;
+    background: var(--wc);
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.contact-form .custom-control::placeholder{
+    color: var(--dgc);
+}
 
+.contact-form .form-select{
+    width: 100%;
+    height: 65px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.contact-form button{
+    width: 100%;
+    height: 65px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--wc);
+    background: var(--irc);
+    border-radius: 8px;
+}
 
+/* =====================================
+    CONTACT US CSS 
+===================================== */
+.contact-us{
+    background: var(--abc);
+}
+.contact-us h3{
+    color: var(--wc);
+}
+.contact-us h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--wc);
+}
+hr.contact{
+    height: 1px;
+    background: var(--sc);
+}
+.contact-us h6{
+    font-size: 24px;
+    color: var(--wc);
+}
+hr.menubefore{
+    height: 2px;
+    background: #ffffff;
+}
 
-
-
-
-
+.contact-us .address li{
+    list-style-type: none;
+}
+.contact-us .address i{
+    font-size: 22px;
+}
+/* contact form */
+.contact-us .contact-form label{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--wc);
+}
+.contact-us .contact-form button{
+    background: var(--wsc);
+}
 
 
 
