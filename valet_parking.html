@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <html lang="ar" dir="rtl"> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valet Parking | Parking Incubator</title>
+    <!--    GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap">
+    <!--    BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--    FONT AWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--    SLICK SLIDER-->
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!--    MAIN CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/arabic.css"> -->
+</head>
+
+<body>
+
+    <!-- HEADER TOP -->
+    <section class="header-top py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 align-items-center">
+                    Call Us: +02154879635
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex justify-content-end">
+                    <span class="d-flex align-items-center">
+                        Follow us:
+                        <ul class="d-flex px-4">
+                            <li class="mx-2 text-white">
+                                <a href="#"><i class="fab fa-facebook-square fs-5"></i></a>
+                            </li>
+                            <li class="mx-2 text-white">
+                                <a href="#"><i class="fab fa-twitter-square fs-5"></i></a>
+                            </li>
+                            <li class="mx-2 text-white">
+                                <a href="#"><i class="fab fa-linkedin fs-5"></i></i></a>
+                            </li>
+                            <li class="mx-2 text-white">
+                                <a href="#"><i class="fab fa-instagram-square fs-5"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="px-4">
+                            <li>
+                                <a href="#">Become Neighbor Host</a>
+                            </li>
+                        </ul>
+                        <ul class="px-4">
+                            <li>
+                                <a href="#">Sign Up</a>
+                            </li>
+                        </ul>
+                    </span>
+                    <ul>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HEADER TOP -->
+    <!-- HEADER SECTION -->
+    <header class="d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4">
+                    <div class="logo d-flex justify-content-between align-items-center">
+                        <a href="#">
+                            <img src="assets/img/logo/logo.png" alt="Logo">
+                        </a>
+                        <i class="fa fa-bars d-md-none" onClick="mobileClick()" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-md-8 d-none d-md-block">
+                    <div class="menubar">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li class="pe-0">
+                                <a href="#">
+                                    Services
+                                    <img src="assets/img/icon/dropeown.png" alt="dropdown-img">
+                                </a>
+                                </i>
+                            </li>
+                            <li class="pe-0">
+                                <a href="#">
+                                    Valet Parking
+                                    <img src="assets/img/icon/dropeown.png" alt="dropdown-img">
+                                </a>
+                                </i>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION END-->
+
+
+    <!-- MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="mobile-logo mb-5">
+                <a href="#">
+                    <img src="assets/img/logo/logo.png" alt="mobile-logo">
+                </a>
+                <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+            </div>
+
+            <div class="accordion-item custom ">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            About
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Services
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>services</a></li>
+
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>sector</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item custom ">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Sign Up
+                        </button>
+                    </a>
+                </h2>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+    <!-- END MOBILE MENU-->
+
+    <!-- BANNER SECTION -->
+    <section class="banner-two">
+        <div class="overlay py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="section-title">
+                            <h3>Valet Parking</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER SECTION -->
+
+    <!-- VALET PARKING -->
+    <section class="valet-parking my-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                    <h5>Valet Parking</h5>
+                    <h2 class="section-header">SERVICE AT YOUR DOOR STEP</h2>
+                    <p class="paragraph mt-4">Valet Parking Service for Your Hotel, Special Event, Wedding or Night Club.
+                        <br><br>
+                        Parking Response provides Valet Parking to Restaurants, Lounges & Nightclubs, Retail Centers and we
+                        also do Corporate
+                        Events and more. If you have an auto dealership and need to provide valet service to your clientele,
+                        call us. We are
+                        specialists at valet parking, and we provide it fast, efficiently and professional.
+                    </p>
+                    <div class="view-btn pt-4 mb-3">
+                        <a href="#">Read More </a>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 align-self-center">
+                    <img class="img-fluid" src="assets/img/photos/SERVICE-AT-YOUR-DOOR-STEP.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- VALET PARKING -->
+
+    <!-- VALET SERVICES -->
+    <section class="valet-services py-5">
+        <div class="container my-4">
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-hourly-street-parking-services.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing hourly street parking services</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-management-and-rehabilitation-services.png"
+                            alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking management and rehabilitation services</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-valet-parking-services-at-airports.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing valet parking services at airports</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-valet-parking-at-railway-stations.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing valet parking at railway stations</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-valet-parking-at-mass-transit-stations.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing valet parking at mass transit stations</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-monitoring-services-with-security-cameras.png"
+                            alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking monitoring services with security cameras</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-solar-powered-parking-lighting-services.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing solar powered parking lighting services</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing parking services for luxury hotels and apartments.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking services for luxury hotels and apartments</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-services-for-residential-(compounds).png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking services for residential complexes (compounds)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-services-for-shopping-centers-and-malls.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking services for shopping centers and malls</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-services-for-exhibitions,-conferences-and-events.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking services for exhibitions, conferences and events</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-services-for-restaurants-and-cafes.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking services for restaurants and cafes</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-services-at-museums-and-cinemas.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking services at museums and cinemas</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-services-at-public-parks-and-parks.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking services at public parks and parks</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-maintenance,-operation-&-parking-management-services-at-Governmental-entities.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing maintenance, operation & parking management services at
+                            Governmental entities</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-valet-parking-for-entertainment-authority-events.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing valet parking for entertainment authority events</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-valet-parking-for-Sports-Authority-events.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing valet parking for Sports Authority events</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-valet-parking-for-Culture-Authority-events.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing valet parking for Culture Authority events</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-services-for-private-and-government-hospitals.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking services for private and government hospitals</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-parking-management-service-for-vegetable-markets-(loading-and-unloading).png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing parking management service for vegetable markets (loading and unloading)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-control-service-for-violating-parking-lots.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing control service for violating parking lots
+                            In partnership with Traffic</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-crowd-management-services-and-frequency-transmission-between-events-and-parking.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing crowd management services and frequency transmission between events and parking</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-luxury-car-rental-services-with-chauffeur.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing luxury car rental services with chauffeur</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-third-party-property-management-services-including-parking-and-land-rental.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing third party property management services including parking and land rental</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-land-rental-and-investment-services.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing land rental and investment services</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-4">
+                    <div class="card p-card">
+                        <img src="assets/img/photos/valet_parking/Providing-car-wash-and-simple-maintenance-services.png" alt="card-img">
+                        <div class="card-body">
+                            <h5 class="mt-2 mb-3">Providing car wash and simple maintenance services</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- VALET SERVICES -->
+
+    <!-- RENT OUT PARKING SPACE START -->
+    <section class="parking-space rent-out my-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 align-self-center">
+                    <img class="img-fluid" src="assets/img/photos/Rent out your parking space.png" alt="img">
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <h2 class="section-header"><span>Rent out</span> your parking space</h2>
+                    <p class="paragraph mt-4">
+                        Make $50-$300 per month by renting out your empty parking space to a neighbor. It's easy, safe
+                        and free.
+                        Preparing your parking for potential renters will help get your space reserved as quick as
+                        possible, putting more money
+                        in your pocket.
+                    </p>
+                    <div class="view-btn pt-5 mb-3">
+                        <a href="#">Sign Up Now </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- RENT OUT PARKING SPACE END -->
+
+    <!-- FOOTER PART HERE -->
+    <div class="container">
+        <div class="triangle-div">
+            <!-- footer triangle div -->
+        </div>
+    </div>
+    <footer class="py-5">
+        <div class="container py-4">
+            <div class="row pt-4">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <img src="assets/img/logo/footer-logo.png" alt="footer-logo"><br>
+                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                    <div class="input-group mt-3">
+                        <input type="text" class="custom-control" placeholder="Email" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button type="submit" id="button-addon2"> Subscribe </button>
+                    </div>
+                    <div class="social-link mt-3">
+                        <ul class="d-flex">
+                            <li class="mx-2">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="mx-2">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="mx-2">
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li class="mx-2">
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="mx-2">
+                                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-link">
+                        <h6 class="mb-5">Quick Link</h6>
+                        <ul>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Valet Parking</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Parking Management System</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Become Neighbor Host</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Property Management</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Land Rental Management</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-link">
+                        <h6 class="mb-5">Important Link</h6>
+                        <ul>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Account</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Service Page</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Blog Page</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Contact Page</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">How it work</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-link">
+                        <h6 class="mb-5">Contact Info</h6>
+                        <ul>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Riadah Incubators Startup Studio And corporate factory -
+                                    Khaldiya Towers - 4th Tower - Faisal Bin Turki Road - Office
+                                    No. 6 - Floor 13 - Riyadh</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Email: info@parkingincu.com</a>
+                            </li>
+                            <li class="my-4">
+                                <i class="fas fa-circle"></i>
+                                <a class="ms-2" href="">Phone : +966 55 117 5959</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER PART HERE -->
+
+    <!-- COPY RIGHT PART -->
+    <section class="copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 my-3">
+                    Copyrights © 2021 | All Rights Reserved at <span>Parking Incubatort</span>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <ul class="d-flex justify-content-end">
+                        <li class="ms-4 my-3">
+                            <a href="#">Terms & Condition</a>
+                        </li>
+                        <li class="ms-4 my-3">
+                            <a href="#">Business Policy</a>
+                        </li>
+                        <li class="ms-4 my-3">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="ms-4 my-3">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="ms-4 my-3">
+                            <a href="#">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COPY RIGHT PART -->
+
+    <!--    JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    SLICK SLIDER-->
+    <script src="assets/js/slick.min.js"></script>
+    <!--    BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -554,6 +554,31 @@ footer .input-group button{
     color: var(--abc);
 }
 
+/* ================================
+ VALET PARKING 
+================================ */
+.banner-two{
+    background-image: url(../img/photos/valet_parking/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-two .overlay {
+    background: #717fffa6;
+}
+.valet-services{
+    background: var(--lnc);
+}
+.valet-services .p-card h5{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--dgc);
+}
+.valet-services .card-body{
+    min-height: 129px;
+}
+
+
 
 
 
