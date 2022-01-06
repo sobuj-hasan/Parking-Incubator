@@ -69,6 +69,12 @@ header {
 /*MOBILE MENU*/
 
 /*ACCORDION CUSTOM*/
+.custom a{
+    color: var(--abc);
+}
+.custom a:hover{
+    color: var(--sc);
+}
 .mobile-logo img {
     width: 150px;
     padding: 10px 0;
@@ -619,6 +625,151 @@ footer .input-group button{
     border-radius: 8px;
 }
 
+/* ======================================
+    Booking Page CSS
+====================================== */
+.contactual-btn a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--wc);
+    background: var(--sc);
+    border: none;
+    padding: 13px 36px;
+    border-radius: 4px;
+}
+.banner-two .name h5{
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--wc);
+}
+.banner-two p{
+    color: var(--wc);
+}
+.banner-two .price h6{
+    color: var(--wc);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+.banner-two .price span{
+    color: var(--gc);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* =====================================
+    Booking/Parking Description
+===================================== */
+.parking-description .overlay {
+    background: #3d4271c4;
+}
+.parking-description{
+    background: var(--wc);
+}
+.parking-description h5{
+    color: var(--abc);
+}
+.parking-description h6{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--abc);
+}
+hr.features{
+    height: 2px;
+    background: #CCCCCC;
+}
+.features li h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--abc);
+    width: 40%;
+}
+.features li .small-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--dgc);
+    width: 60%;
+}
+
+.booking-card {
+    border: 1px solid var(--gc);
+    border-radius: 10px;
+    padding: 25px 30px;
+    background: var(--wfc);
+}
+
+.book-space ul li p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: var(--dgc);
+    width: 50%;
+}
+.book-space .custom-control{
+    height: 40px;
+    background: #FAFAFA;
+    outline: none;
+    border: 1px solid var(--gc);
+    width: 50%;
+    padding-left: 10px;
+}
+.book-space .custom-control option{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--dgc);
+}
+
+.book-summary ul li p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dgc);
+    width: 80%;
+}
+.book-summary ul li .amount{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dgc);
+    width: 20%;
+}
+.book-summary i{
+    color: var(--wsc);
+    font-size: 12px;
+}
+.book-summary ul li .form-ckeck{
+    color: var(--wsc);
+}
+
+.booking-btn button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--wc);
+    background: var(--sc);
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.booking-card .phone i{
+    font-size: 22px;
+    color: var(--abc);
+}
+.booking-card .phone h5{
+    font-weight: 700;
+    color: var(--abc);
+}
+
+
 /* =====================================
     CONTACT US CSS 
 ===================================== */
@@ -663,7 +814,108 @@ hr.menubefore{
     background: var(--wsc);
 }
 
+/* ===========================
+Login Page css 
+=========================== */
+/* LOGIN PART */
+.login-part{
+    background: #FFFFFF;
+}
+.login-card{
+    background: var(--abc);
+    border: none;
+}
+.login-card h3{
+    color: #FFFFFF;
+    font-size: 34px;
+}
+.login-card h6{
+    color: #FFFFFF;
+}
+.login-card button {
+    border: none;
+    background: var(--sc);
+    height: 50px;
+    width: 83%;
+    margin-left: 56px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--wc);
+}
+.login-card p {
+    color: #FFFFFF;
+}
+.login-card ul li {
+    height: 30px;
+    width: 30px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    line-height: 34px;
+    text-align: center;
+    margin: 0px 8px;
+    font-size: 24px;
+}
+.login-card ul li a{
+    color: #315db8;
+}
+.login-card .custom-form-control{
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--psb);
+}
+.login-card label {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--wc);
+}
+.login-card .custom-form-control::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--qs);
+}
+/* LOGIN PART END */
 
+/* =============================
+Register page css 
+============================= */
+/* SIGN UP PART */
+.signin-part{
+    background: #FFFFFF;
+}
+.signin-card{
+    background: var(--abc);
+    border: none;
+}
+.signin-card h3{
+    color: #FFFFFF;
+    font-size: 34px;
+}
+.signin-card h6{
+    color: #FFFFFF;
+}
+.signin-card p {
+    color: #FFFFFF;
+}
+.signin-card label {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--wc);
+}
+.signin-card button {
+    border: none;
+    background: var(--sc);
+    height: 50px;
+    width: 88%;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--wc);
+}
 
 
 
