@@ -126,6 +126,8 @@ button {
     font-size: 40px;
     line-height: 46px;
     color: var(--abc);
+}
+.section-title{
     position: relative;
 }
 .section-title h3::after {

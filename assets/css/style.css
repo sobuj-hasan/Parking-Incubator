@@ -5,6 +5,17 @@
 .header-top{
     background: var(--dgc);
 }
+.header-top p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.header-top ul li {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	margin: 0px 14px;
+}
 .header-top ul{
     border-right: 1.5px solid var(--wc);
 }
@@ -480,6 +491,9 @@ footer .input-group button{
     font-size: 10px;
     color: var(--wsc);
 }
+.copyright ul li {
+    margin-left: 22px;
+}
 /* FOOTER CSS */
 /* COPYRIGHT SECTION */
 .copyright{
@@ -863,7 +877,7 @@ Login Page css
     height: 50px;
     font-weight: 400;
     font-size: 18px;
-    color: var(--psb);
+    color: var(--bc);
 }
 .login-card label {
     font-size: 16px;
@@ -874,7 +888,7 @@ Login Page css
 .login-card .custom-form-control::placeholder{
     font-weight: 400;
     font-size: 18px;
-    color: var(--qs);
+    color: var(--gc);
 }
 /* LOGIN PART END */
 
@@ -914,7 +928,7 @@ Register page css
     border-radius: 5px;
     font-weight: 500;
     font-size: 22px;
-    color: var(--wc);
+    color: var(--wc;
 }
 
 
